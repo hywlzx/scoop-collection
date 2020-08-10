@@ -6,12 +6,12 @@
     "architecture": {
         "64bit": {
             "url": "https://downloads.mysql.com/archives/get/p/23/file/mysql-5.5.60-winx64.zip",
-            "hash": "md5:83b832754464f860a195f9123f793a7b",
+            "hash": "md5:7e8f7703354fe7d65d5fcc0cc73e3530",
             "extract_dir": "mysql-5.5.60-winx64"
         },
         "32bit": {
             "url": "https://downloads.mysql.com/archives/get/p/23/file/mysql-5.5.60-win32.zip",
-            "hash": "md5:bda00d8fbccc02d3298d2c58b9053b6a",
+            "hash": "md5:afefaece16bc3d8e3de3ba68192e0f17",
             "extract_dir": "mysql-5.5.60-win32"
         }
     },
