@@ -1,0 +1,38 @@
+{
+    "description": "Oracle JDK",
+    "homepage": "https://www.oracle.com/java/",
+    "version": "8u281",
+    "license": "https://www.oracle.com/downloads/licenses/javase-license1.html",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.oracle.com/otn/java/jdk/8u281-b09/89d678f2be164786b292527658ca1605/jdk-8u281-windows-x64.exe",
+            "hash": "E3CA54CFD36836BEE266CDFEC73A21E86E38BF5F953492EBDF0AE171569A7254"
+        }
+    },
+    "cookie": {
+        "oraclelicense": "accept-securebackup-cookie"
+    },
+    "extract_dir": "jdk-8u281",
+    "env_add_path": "bin",
+    "env_set": {
+        "JAVA_HOME": "$dir"
+    },
+    "checkver": {
+        "url": "https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html",
+        "regex": "(?smi)digest/(?<digest>[\\d-]+)checksum.html(?:.*)otn-pub/java/jdk/(?<path>(?<major>[\\d.]+)(?:\\+|\\%2b)(?<build>[\\d]+)/(?:[a-fA-F0-9]{32})/jdk-(?:.*?)_windows-x64_bin.zip)",
+        "replace": "${major}-${build}",
+        "useragent": "Mozilla/5.0 (Windows NT 10.0; Trident/7.0; rv:11.0) like Gecko"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.oracle.com/otn-pub/java/jdk/$matchPath"
+            }
+        },
+        "hash": {
+            "url": "https://www.oracle.com/webfolder/s/digest/$matchDigestchecksum.html",
+            "find": "$basename.*([a-fA-F0-9]{64})"
+        },
+        "extract_dir": "jdk-$matchMajor"
+    }
+}
