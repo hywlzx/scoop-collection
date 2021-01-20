@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://download.oracle.com/otn/java/jdk/8u281-b09/89d678f2be164786b292527658ca1605/jdk-8u281-windows-x64.exe",
-            "hash": "E3CA54CFD36836BEE266CDFEC73A21E86E38BF5F953492EBDF0AE171569A7254"
+            "hash": "15e39038215b6c51307076d679e33adadcb454feb9dded99dac36ef25c5eeacf"
         }
     },
     "cookie": {
