@@ -18,8 +18,8 @@
     },
     "bin": "Emby.Theater.exe",
     "post_installer": [
-        "# cracking emby"
-        "if (Test-Path \"$dir\\data\") {rm -fo -r \"$dir\\data\"}"
+        "# cracking emby",
+        "if (Test-Path \"$dir\\data\") {rm -fo -r \"$dir\\data\"}",
         "(Get-Content \"$dir\\data\\main.js\") -replace 'https://tv.emby.media', \"$dir\\data\\main.js\" -Force"
     ],
     "shortcuts": [
