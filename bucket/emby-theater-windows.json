@@ -17,7 +17,7 @@
         }
     },
     "bin": "Emby.Theater.exe",
-    "post_installer": [
+    "post_install": [
         "# cracking emby",
         "if (Test-Path \"$dir\\data\") {rm -fo -r \"$dir\\data\"}",
         "(Get-Content \"$dir\\electronapp\\main.js\") -replace 'https://tv.emby.media', \"$dir\\electronapp\\main.js\" -Force"
