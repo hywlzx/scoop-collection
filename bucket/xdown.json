@@ -11,7 +11,7 @@
             "hash": "0B3D2F96ABD2BE604F73B6A3D93879986BDE03B3339326D62D5D34FA37AF4A4B"
         }
     },
-    "bin": "XDown.exe",
+    "bin": "xdown\\XDown.exe",
     "uninstaller": [
         "# uninstall xDown",
         "if (Test-Path \"C\\User\\%UserName%\\AppData\\Local\\xdown\") {rm -fo -r \"C\\User\\%UserName%\\AppData\\Local\\xdown\"}",
