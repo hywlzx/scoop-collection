@@ -1,1 +1,3 @@
-# hyw_bucket
+# scoop-collection
+
+Personal scoop bucket
