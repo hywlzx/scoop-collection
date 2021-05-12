@@ -1,0 +1,36 @@
+{
+    "homepage": "https://xdown.org/",
+    "license": {
+        "identifier": "Unknown"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://dl.xdown.org/windows/i386/xdown-2.0.2.7.zip",
+            "hash": "0B3D2F96ABD2BE604F73B6A3D93879986BDE03B3339326D62D5D34FA37AF4A4B"
+        }
+    },
+    "bin": "XDown.exe",
+    "uninstaller": [
+        "# uninstall xDown",
+        "if (Test-Path \"C\\User\\%UserName%\\AppData\\Local\\xdown\") {rm -fo -r \"C\\User\\%UserName%\\AppData\\Local\\xdown\"}",
+        "if (Test-Path \"C\\User\\%UserName%\\AppData\\Local\\.xdown\") {rm -fo -r \"C\\User\\%UserName%\\AppData\\Local\\.xdown\"}",
+        "if (Test-Path \"C\\User\\%UserName%\\AppData\\Roaming\\xdown\") {rm -fo -r \"C\\User\\%UserName%\\AppData\\Roaming\\xdown\"}"
+    ],
+    "shortcuts": [
+        [
+            "XDown.exe",
+            "XDown"
+        ]
+    ],
+    "checkver": {
+        "url": "https://xdown.org/",
+        "regex": "Last update version number: ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dl.xdown.org/windows/i386/xdown-$version.zip"
+            }
+        }
+    }
+}
