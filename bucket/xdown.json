@@ -12,15 +12,18 @@
         }
     },
     "bin": "xdown\\XDown.exe",
-    "uninstaller": [
+    "uninstaller": {
+        "script": [
         "# uninstall xDown",
         "if (Test-Path \"C\\User\\%UserName%\\AppData\\Local\\xdown\") {rm -fo -r \"C\\User\\%UserName%\\AppData\\Local\\xdown\"}",
         "if (Test-Path \"C\\User\\%UserName%\\AppData\\Local\\.xdown\") {rm -fo -r \"C\\User\\%UserName%\\AppData\\Local\\.xdown\"}",
         "if (Test-Path \"C\\User\\%UserName%\\AppData\\Roaming\\xdown\") {rm -fo -r \"C\\User\\%UserName%\\AppData\\Roaming\\xdown\"}"
-    ],
+        ]
+    }
+    ,
     "shortcuts": [
         [
-            "XDown.exe",
+            "xdown\\XDown.exe",
             "XDown"
         ]
     ],
