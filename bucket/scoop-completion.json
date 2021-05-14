@@ -22,11 +22,9 @@
             "Add-Content $PROFILE \"Import-Module '$($(Get-Item $(Get-Command scoop).Path).Directory.Parent.FullName)\\modules\\scoop-completion' -ErrorAction SilentlyContinue\" -Encoding Ascii"
         ]
     },
-    "post_install": {
-        "script": [
-            "Import-Module '$($(Get-Item $(Get-Command scoop).Path).Directory.Parent.FullName)\\modules\\scoop-completion'"
-        ]
-    },
+    "post_install": [
+        "Import-Module '$($(Get-Item $(Get-Command scoop).Path).Directory.Parent.FullName)\\modules\\scoop-completion'"
+    ],
     "uninstaller": {
         "script": [
             "if ($PROFILE -and (Test-Path $PROFILE)) {",
