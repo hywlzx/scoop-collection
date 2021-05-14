@@ -19,7 +19,8 @@
             "if (!(Test-Path $PROFILE)) {",
             "   New-Item -Path $PROFILE -ItemType 'file' -Force",
             "}",
-            "Add-Content $PROFILE \"Import-Module '$($(Get-Item $(Get-Command scoop).Path).Directory.Parent.FullName)\\modules\\scoop-completion' -ErrorAction SilentlyContinue\" -Encoding Ascii"
+            "Add-Content $PROFILE \"Import-Module '$($(Get-Item $(Get-Command scoop).Path).Directory.Parent.FullName)\\modules\\scoop-completion' -ErrorAction SilentlyContinue\" -Encoding Ascii",
+            "Import-Module '$($(Get-Item $(Get-Command scoop).Path).Directory.Parent.FullName)\\modules\\scoop-completion'"
         ]
     },
     "uninstaller": {
