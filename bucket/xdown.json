@@ -28,7 +28,7 @@
     ],
     "checkver": {
         "url": "https://xdown.org/",
-        "regex": "Last update version number: ([\\d.]+)"
+        "regex": "Last update version number:([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
