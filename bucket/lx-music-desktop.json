@@ -1,0 +1,40 @@
+{
+    "version": "1.10.2",
+    "description": "music app base on Electron + Vue",
+    "homepage": "https://github.com/lyswhut/lx-music-desktop",
+    "license": {
+        "identifier": "Apache-2.0",
+        "url": "https://github.com/lyswhut/lx-music-desktop/blob/master/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v1.10.2/lx-music-desktop-v1.10.2-win_x64-green.7z",
+            "hash": "3EDDF56D26EB3E7203AE9A225DF986EA3F0DB443C588C5F058E20C2882E45DEC"
+        },
+        "32bit": {
+            "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v1.10.2/lx-music-desktop-v1.10.2-win_x86-green.7z",
+            "hash": "3288415FA45D9975D671DA00D98BA41898A803A90C286ECC2B2FB1A44C2F2D84"
+        }
+    },
+    "bin": "lx-music-desktop.exe",
+    "shortcuts": [
+        [
+            "lx-music-desktop.exe",
+            "lx-music-desktop",
+            "洛雪音乐助手"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/lyswhut/lx-music-desktop"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/$version/lx-music-desktop-v1.10.2-win_x64-green.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/$version/lx-music-desktop-v1.10.2-win_x86-green.7z"
+            }
+        }
+    }
+}
