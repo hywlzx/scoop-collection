@@ -1,5 +1,5 @@
 {
-    "version": "2.0.2.7",
+    "version": "2.0.2.8",
     "description": "File download and share",
     "homepage": "https://xdown.org/",
     "license": {
@@ -7,17 +7,17 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://dl.xdown.org/windows/i386/xdown-2.0.2.7.zip",
-            "hash": "0B3D2F96ABD2BE604F73B6A3D93879986BDE03B3339326D62D5D34FA37AF4A4B"
+            "url": "https://dl.xdown.org/windows/i386/xdown-2.0.2.8.zip",
+            "hash": "142bb5aeb93010a09f84237347c0719c015a4db8b66cbe8e6f70e6cf2a5aed71"
         }
     },
     "bin": "xdown\\XDown.exe",
     "uninstaller": {
         "script": [
-        "# uninstall xDown",
-        "if (Test-Path \"~\\AppData\\Local\\xdown\") {rm -fo -r \"~\\AppData\\Local\\xdown\"}",
-        "if (Test-Path \"~\\AppData\\Local\\.xdown\") {rm -fo -r \"~\\AppData\\Local\\.xdown\"}",
-        "if (Test-Path \"~\\AppData\\Roaming\\xdown\") {rm -fo -r \"~\\AppData\\Roaming\\xdown\"}"
+            "# uninstall xDown",
+            "if (Test-Path \"~\\AppData\\Local\\xdown\") {rm -fo -r \"~\\AppData\\Local\\xdown\"}",
+            "if (Test-Path \"~\\AppData\\Local\\.xdown\") {rm -fo -r \"~\\AppData\\Local\\.xdown\"}",
+            "if (Test-Path \"~\\AppData\\Roaming\\xdown\") {rm -fo -r \"~\\AppData\\Roaming\\xdown\"}"
         ]
     },
     "shortcuts": [
