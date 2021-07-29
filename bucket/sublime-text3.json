@@ -7,7 +7,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": "",
+            "url": "https://github.com/hywlzx/scoop-collection/raw/master/apps/Sublime-Text3.zip",
             "hash": "25F47426BA756A2D32C3EC4151EEA18237D58005E23782174DA01BCE079EDBF9"
         }
     },
