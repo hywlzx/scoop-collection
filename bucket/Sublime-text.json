@@ -1,5 +1,5 @@
 {
-    "version": "3103",
+    "version": "3-3103",
     "description": "light code editor",
     "homepage": "https://www.sublimetext.com/",
     "license": {
@@ -15,7 +15,7 @@
     "shortcuts": [
         [
             "sublime_text.exe",
-            "Sublime Text"
+            "Sublime-Text"
         ]
     ]
 }
