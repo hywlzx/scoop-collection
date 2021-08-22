@@ -20,7 +20,7 @@
     "post_install": [
         "# cracking emby",
         "if (Test-Path \"$dir\\data\") {rm -fo -r \"$dir\\data\"}",
-        "(Get-Content \"$dir\\electronapp\\main.js\") -replace 'https://tv.emby.media', 'https://tv.emby.neko.re' | Set-Content \"$dir\\electronapp\\main.js\" -Force"
+        "(Get-Content \"$dir\\electronapp\\main.js\") -replace 'https://tv.emby.media', 'http://embycrack.tk' | Set-Content \"$dir\\electronapp\\main.js\" -Force"
     ],
     "shortcuts": [
         [
