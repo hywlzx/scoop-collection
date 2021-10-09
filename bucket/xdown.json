@@ -1,5 +1,5 @@
 {
-    "version": "2.0.3.4",
+    "version": "2.0.3.8",
     "description": "File download and share",
     "homepage": "https://xdown.org/",
     "license": {
@@ -7,8 +7,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://dl.xdown.org/windows/i386/xdown-2.0.3.4.zip",
-            "hash": "e40e51c82c3fad6edb6df28f1389b1361cc880654e112061b8957b7c3331bad7"
+            "url": "https://dl.xdown.org/windows/i386/xdown-2.0.3.8.zip",
+            "hash": "bf94db7675a3435dcc62e00e3b5665dc27ca0f1c619e3f54f6d426bc604e7463"
         }
     },
     "bin": "xdown\\XDown.exe",
