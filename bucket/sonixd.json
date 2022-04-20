@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/jeffvli/sonixd/releases/download/v0.15.0/Sonixd-0.15.0-win-x64.zip",
-            "hash": "822f9a304fccac73e5632011ff7b1291befffd1e39600f006800dac3d44d7e73"
+            "hash": "8563543B32C2FCA899F4B2C6FF55231221E7CA86C689A9AC60D38999A3DA4485"
         }
     },
     "bin": "Sonixd.exe",
