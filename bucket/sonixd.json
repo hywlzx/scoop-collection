@@ -1,0 +1,32 @@
+{
+    "version": "0.15.0",
+    "description": "Sonixd is a cross-platform desktop client built for Subsonic-API (and Jellyfin in 0.8.0+) compatible music servers",
+    "homepage": "https://github.com/jeffvli/sonixd",
+    "license": {
+        "identifier": "GPL-3.0-only",
+        "url": "https://github.com/jeffvli/sonixd/blob/main/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jeffvli/sonixd/releases/download/v0.15.0/Sonixd-0.15.0-win-x64.zip",
+            "hash": "822f9a304fccac73e5632011ff7b1291befffd1e39600f006800dac3d44d7e73"
+        }
+    },
+    "bin": "Sonixd.exe",
+    "shortcuts": [
+        [
+            "Sonixd.exe",
+            "Sonixd"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/jeffvli/sonixd"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/jeffvli/sonixd/releases/download/v$version/Sonixd-$version-win-x64.zip"
+            }
+        }
+    }
+}
