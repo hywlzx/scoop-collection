@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Kuingsmile/PicList/releases/download/v2.8.0/PicList-2.8.0-x64.zip",
-            "hash": "ff141cb91ee403c84602f8ec3e7f8796ec457c95805de56f4addac4398e349be"
+            "url": "https://github.com/Kuingsmile/PicList/releases/download/v2.8.0/PicList-Setup-2.8.0-x64.exe",
+            "hash": "43f24755fa6ba9793044cf58ec6974f874474a07321b246ca4dd00d72a072b6b"
         }
     },
     "bin": "PicList.exe",
@@ -25,7 +25,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Kuingsmile/PicList/releases/download/v$version/PicList-$version-x64.zip"
+                "url": "https://github.com/Kuingsmile/PicList/releases/download/v$version/PicList-Setup-$version-x64.exe"
             }
         }
     }
