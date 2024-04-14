@@ -1,5 +1,5 @@
 {
-    "version": "2.6.0",
+    "version": "2.7.0",
     "description": "music app base on Electron + Vue",
     "homepage": "https://github.com/lyswhut/lx-music-desktop",
     "license": {
@@ -8,12 +8,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v2.6.0/lx-music-desktop-v2.6.0-win7_x64-green.7z",
-            "hash": "e43bb856e1841fa3c3ab972d09c88e91781a43fd542eff1f8bdd593bb1294cf4"
+            "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v2.7.0/lx-music-desktop-v2.7.0-win7_x64-green.7z",
+            "hash": "f5d26c17b97789f3b3173ef7aa6240268825b57e64209d87be0e2589bfc7f909"
         },
         "32bit": {
-            "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v2.6.0/lx-music-desktop-v2.6.0-win7_x86-green.7z",
-            "hash": "74e5d12391461b1097ee0b1f410ee9688fbc0bdc9b40767f75f0ae8783967ca9"
+            "url": "https://github.com/lyswhut/lx-music-desktop/releases/download/v2.7.0/lx-music-desktop-v2.7.0-win7_x86-green.7z",
+            "hash": "b9d6a52cf80ec035cfbf84999e7c09d9a2fba20b04363a92791956ff283fdaf3"
         }
     },
     "bin": "lx-music-desktop.exe",
