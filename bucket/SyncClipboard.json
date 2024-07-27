@@ -1,5 +1,5 @@
 {
-    "version": "2.8.3",
+    "version": "2.8.4",
     "description": "Clipboard syncing, supporting text/image/file, client-server architecture. You can also use a WebDAV compatible netdisk as server.",
     "homepage": "https://github.com/Jeric-X/SyncClipboard",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Jeric-X/SyncClipboard/releases/download/v2.8.3/SyncClipboard.zip",
-            "hash": "68df16579127af6e54f91832dcd8af80ea99edbd8566afa1c29a0b91ff956d1f"
+            "url": "https://github.com/Jeric-X/SyncClipboard/releases/download/v2.8.4/SyncClipboard.zip",
+            "hash": "8a3a6f9a1339605c1205e24c82a5b04dc2ab2e676584f37668dddf3268d1851e"
         }
     },
     "bin": "SyncClipboard.exe",
