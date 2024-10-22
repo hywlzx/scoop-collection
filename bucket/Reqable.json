@@ -1,5 +1,5 @@
 {
-    "version": "2.27.0",
+    "version": "2.27.1",
     "description": "Reqable is a modern cross-platform project, designed for API development, testing, and debugging. Reqable fully supports HTTP1 and HTTP2 and partially supports HTTP3(QUIC). Now available on Windows, Mac, Linux, Android and iOS.",
     "homepage": "https://github.com/reqable/reqable-app",
     "license": {
@@ -7,8 +7,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/reqable/reqable-app/releases/download/2.27.0/reqable-app-windows-x86_64.zip",
-            "hash": "f07f9b70d661483db19c3ca45735ef97a18a67a4b6df6ee0f01134cc7f076422"
+            "url": "https://github.com/reqable/reqable-app/releases/download/2.27.1/reqable-app-windows-x86_64.zip",
+            "hash": "f3efdfdd3b162eea9452d11e0d1f13270c2c929fb688df1d52bdefc1ec63ad22"
         }
     },
     "bin": "Reqable.exe",
