@@ -1,0 +1,27 @@
+{
+    "version": "0.2.2",
+    "description": "A video player focused on subtitle-related features such as dual subtitles, AI-generated subtitles, real-time translation, word lookup, and more!",
+    "homepage": "https://github.com/umlx5h/LLPlayer",
+    "license": {
+        "identifier": "GPL",
+        "url": "https://github.com/umlx5h/LLPlayer/blob/main/LICENSE"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/umlx5h/LLPlayer/releases/download/v0.2.2/LLPlayer-v0.2.2-x64.7z",
+            "hash": "3063467D9942B18FAAE429BEEA8342FF239AF5C83CA5607DD2072A6927151730"
+        }
+    },
+    "bin": "LLPlayer.exe",
+    "shortcuts": [["LLPlayer.exe", "LLPlayer"]],
+    "checkver": {
+        "github": "https://github.com/umlx5h/LLPlayer"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/umlx5h/LLPlayer/releases/download/v$version/LLPlayer-v$version-x64.7z"
+            }
+        }
+    }
+}
