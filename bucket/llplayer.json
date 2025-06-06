@@ -3,7 +3,7 @@
     "description": "A video player focused on subtitle-related features such as dual subtitles, AI-generated subtitles, real-time translation, word lookup, and more!",
     "homepage": "https://github.com/umlx5h/LLPlayer",
     "license": {
-        "identifier": "GPL",
+        "identifier": "GPL-3.0-only",
         "url": "https://github.com/umlx5h/LLPlayer/blob/main/LICENSE"
     },
     "architecture": {
